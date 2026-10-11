@@ -1,51 +1,55 @@
-body {
-    background-color:#000000 ;
-}
 h1 {
-    color: #f8f8fc;
-    
+    color: #f5f5f5;
+    text-align: center;
 }
 header {
-    background-color: #1b1a1a;
+    background-color: #1a1a1a;
     padding: 20px;
     text-align: center;
+    border-radius: 5px;
+}
+.main-aboutMe {
+    background-color: #581919;
+    padding: 20px;
+    border-radius: 5px;
+}
+.main-portfolio {
+    
+    background-color: #444444;
+    padding: 20px;
+    border-radius: 5px;
 }
 h2 {
     color: #f8f8fc;
+    text-align: start;
 }
 p {
     color: #CCCCCC;
 }
+.p-aboutMe {
+    color: #CCCCCC;
+    text-align: start;
+}
 h3 {
     color: #f8f8fc;
 }
-ul li {
-    color: #f8f8fc;
-}
-main {
-    background-color: #231f20;
-    margin: 20px auto;
-    max-width: 800px;
-    padding: 20px;
-}
-section {
-    background-color: #272626;
-    margin: 20px auto;
-    max-width: 800px;
-    padding: 20px;
-}
 
-
-.profile-img {
-    float: right;
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    margin-top: -250px;
+.div-aboutMe {
+    background-color: #444444;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    
     
 }
-.about-section {
-    overflow: hidden;
+.myprofile-img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    
+}
+.Bg-aboutMe{
+    background-color: #421313;
+    border-radius: 5px;
 }

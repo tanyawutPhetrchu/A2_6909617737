@@ -4,43 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Learning Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
 </head>
-<body>
-    <header>
-        <h1>Welcome to my Portfolio</h1>
+
+
+<body class="bg-dark text-light">
+    <header class="bg-custom-header">
+        <div class="container text-center ">
+<div class="row">
+    <div class="col">
+      <h1>Welcome to my Portfolio</h1>
         <p>By Student Tu University</p>
+    </div>
+</div>
+        
     </header>
 
-<main>
+<main class="main-aboutMe mb-1">
 <!-- แนะนำตัวเบื้องต้น -->
-    <section class="about-section">
-        <h2>About Me</h2>
-        <p>My name is <strong style="color: #f8f8fc;">Thanyawut Phetrchu</strong></p>
-        <p>Student Id: <strong style="color: #f8f8fc;" >6909617737</strong></p>
-        <p>I am studying : </p>
-        <p><strong style="color: #f8f8fc;" >Faculty of Science and Technology </strong></p>
-        <p><strong style="color: #f8f8fc;" >Department of Computer Science</strong></p>
-        <p><strong style="color: #f8f8fc;" >Thammasat University, Rangsit Campus</strong></p>
-        <p>my Hobbies: <strong style="color: #f8f8fc;">Playing Video Games and Reading Books</strong></p>
-        <p>i like : <strong style="color: #f8f8fc;">coffee and tea</strong></p>
-        
-        
+    <div class="container text-center">
+    <div class="row align-items-center">
+    <div class="col-md-6 text-center order-2 order-md-1 Bg-aboutMe" >
 
-        <img src="media/MyPhoto1.jpg" alt="My Photo" class="profile-img">
-    </section>
+        <div class="div-aboutMe mb-2 " >
+            <h2> About Me</h2>
+        </div>
 
-<!-- ช่องทางติดต่อ -->
-    <section>
-        <h2>Contact Information</h2>
-        <p>Email: <strong style="color: #f8f8fc;">thanyawut.phe@dome.tu.ac.th</strong></p>
-        <p>Phone: <strong style="color: #f8f8fc;">098-085-8930</strong></p>
-        <p>Facebook: <a href="https://www.facebook.com/thanyawut.phetrchu" target="_blank" style="color: #f8f8fc; text-decoration: none;">thanyawut phetrchu</a></p>
-        <p>Instagram: <a href="https://www.instagram.com/benz_tpcs/" target="_blank" style="color: #f8f8fc; text-decoration: none;">Benz_TPCS</a></p>
-    </section>
+        <p class="p-aboutMe">My name is: <strong style="color: #f8f8fc;">Thanyawut Phetrchu</strong></p>
+        <p class="p-aboutMe">Student Id: <strong style="color: #f8f8fc;" >6909617737</strong></p>
+        <p class="p-aboutMe">I am studying : </p>
+        <p class="p-aboutMe"><strong style="color: #f8f8fc;" >Faculty of Science and Technology </strong></p>
+        <p class="p-aboutMe"><strong style="color: #f8f8fc;" >Department of Computer Science</strong></p>
+        <p class="p-aboutMe"><strong style="color: #f8f8fc;" >Thammasat University, Rangsit Campus</strong></p>
+        <p class="p-aboutMe">my Hobbies: <strong style="color: #f8f8fc;">Playing Video Games and Reading Books</strong></p>
+        <p class="p-aboutMe">i like : <strong style="color: #f8f8fc;">coffee and tea</strong></p>
+    </div>
+    <div class="col-md-6 text-center mb-4 mb-md-0 order-1 order-md-2" >
+        <img src="media/MyPhoto1.jpg" alt="Profile Image" class="myprofile-img">
+    </div>
+</main>
 
+
+<main class="main-portfolio">
+
+    <h2>My Portfolio</h2>
+    <p>This is where I will showcase my projects and achievements.</p>
 
 </main>
 
+
 </body>
 </html>
+
