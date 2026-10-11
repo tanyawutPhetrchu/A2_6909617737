@@ -1,0 +1,51 @@
+body {
+    background-color:#000000 ;
+}
+h1 {
+    color: #f8f8fc;
+    
+}
+header {
+    background-color: #1b1a1a;
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    color: #f8f8fc;
+}
+p {
+    color: #CCCCCC;
+}
+h3 {
+    color: #f8f8fc;
+}
+ul li {
+    color: #f8f8fc;
+}
+main {
+    background-color: #231f20;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+section {
+    background-color: #272626;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+
+.profile-img {
+    float: right;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: -250px;
+    
+}
+.about-section {
+    overflow: hidden;
+}
