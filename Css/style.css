@@ -48,7 +48,7 @@ h3 {
     
 }
 .myprofile-img {
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
     border-radius: 5px;
     object-fit: cover;
@@ -57,4 +57,16 @@ h3 {
 .Bg-aboutMe{
     background-color: #421313;
     border-radius: 5px;
+}
+.Bg-myportfolio{
+    background-color: #421313;
+    border-radius: 5px;
+}
+
+.myportfolio-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    
 }
