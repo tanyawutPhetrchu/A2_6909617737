@@ -15,6 +15,11 @@ header {
 }
 .main-portfolio {
     
+    background-color: #581919;
+    padding: 20px;
+    border-radius: 5px;
+}
+.main-topics {
     background-color: #444444;
     padding: 20px;
     border-radius: 5px;
